@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es"> <!--esto sirve para que la pagina reconozca el lenguaje en espanol-->
+<head>
+    <meta charset="UTF-8"> <!--esto sirve para que la pagina reconozca los caracteres de todos los idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto sirve para optimizar los sitios para móviles, esta etiqueta ayuda a definir el ancho, alto y escala del área usada por el navegador para mostrar contenido-->
+    <title> Productos | Necoffee</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="icon" type="image/png" href="Logo_Cafe.png">
+</head>
+
+<body>
+    <header>
+    <div class="contenedor">
+    <img src="logo_cafeteria.png" width="200px" height="200px" title="Logo de la cafetería">
+    </div>
+    <h1> Productos disponibles para usted </h1>
+    <h2> Disfruta del suave y dulce sabor de nuestros productos, hechos con cariño y dedicación para nuestros clientes </h2> 
+    </header>
+
+
+    <p class="productos_disponibles">En esta sección puedes observar los productos disponibles y el costo de cada uno. Por favor, a través de los botones en la parte inferior de cada imagen 
+        de referencia, escoge la cantidad de cada producto que desees comprar.
+    </p>
+
+    <br>
+    
+    <form action="MetodoPago.html" target="_self" autocomplete="on">
+
+        <img class="img-1" src="latte.jpg" width="500px" height="350px">
+
+        <p><b> Café latte </p></b>
+        <br>
+        <p>Valor $4.500</p>
+        <br>
+        <p>El número de lattes a comprar es: <input type="text"> </p>
+
+            <br>
+            <hr>
+            <br>
+
+        <img class="img-2" src="cafe_macchiato.jpg" width="500px" height="600px">
+        <p><b> Café macchiato </p></b>
+            <br>
+            <p>Valor $5.500</p>
+            <br>
+            <p>El número de café macchiatos a comprar es: <input type="text"> </p>
+            
+            <br>
+            <hr>
+            <br>
+
+        <img class="img-2" src="cafe_irlandes.jpg" width="700px" height="500px">
+        <p><b> Café irlandés </p></b>
+            <br>
+            <p>Valor $8.000</p>
+            <br>
+            <p>El número de café irlandeses a comprar es: <input type="text"> </p>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="boton_registrarse">
+            <button onclick="alert('Registrando su pedido en el sistema...')">
+                <b> <input class="btn" type="submit" value="Comprar"> </b>
+            </button>
+            </div>
+    </form>
+    
+
+    <br>
+    <hr>
+    <br>
+
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/cafe" title="cafe icons (autor del ícono de la página)" target="_blank">Atribución de derechos de autor
+            icono de la página web ilustrado por Freepik - Flaticon </a>
+    </footer>
+
+    
+</body>
+</html>

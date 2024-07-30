@@ -1,0 +1,6 @@
+com\mycoffeeshop\spring\dao\impl\TablaUsuarioDaoImpl.class
+com\mycoffeeshop\spring\hello_spring\Hello_Spring.class
+com\mycoffeeshop\spring\dao\mapper\TablaUsuarioMapper.class
+com\mycoffeeshop\spring\hello_spring\TablaUsuario.class
+com\mycoffeeshop\spring\hello_spring\Usuario_Spring.class
+com\mycoffeeshop\spring\dao\api\TablaUsuarioDaoAPI.class

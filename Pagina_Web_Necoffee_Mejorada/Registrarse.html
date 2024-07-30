@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8"> <!--esto sirve para que la pagina reconozca los caracteres de todos los idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto sirve para optimizar los sitios para móviles, esta etiqueta ayuda a definir el ancho, alto y escala del área usada por el navegador para mostrar contenido-->
+    <title> Registrarse | Necoffee</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="Logo_Cafe.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor">
+        <img src="logo_cafeteria.png" width="200px" height="200px" title="Logo de la cafetería">
+        </div>
+        <h1> ¡Regístrate en la cafetería para poder iniciar a realizar tus compras! </h1>
+        <h2> "Una vez rellenes los datos que te sean solicitados, tendrás acceso a todo el catálogo de productos disponibles en la cafetería" </h2>
+        <h3> Digita los datos que te sean solicitados a continuación.</h3>
+    </header>
+
+    <br> 
+    <hr>
+    <br>
+
+    <div class="cafe_frio">
+    <img src="Cafe_frio.jpg" alt="Café bastante frío">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="form">
+    <form action="Iniciar_Sesion.html" target="_self" autocomplete="on">
+        <span> <label for="nombre_usuario">Nombres:</label> <br> </span>
+        <span> <input type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Ej: Pepito Perez" required> </span> <br> <br>
+
+        <span> <label for="nombre_usuario">Apellidos:</label> <br> </span>
+        <span> <input type="text" id="apellidos_usuario" name="apellidos_usuario" required> </span> <br> <br>
+
+        <span> <label for="tipo_documento">Tipo de documento de identidad:</label> <br> </span>
+        <span> <input type="text" id="tipo_documento" name="tipo_documento" placeholder="Cédula de Ciudadanía" required> </span> <br> <br>
+
+        <span> <label for="num_documento">Número del documento de identidad:</label> <br> </span>
+        <span> <input type="text" id="num_documento" name="num_documento" placeholder="XXXXXXXXX" required> </span> <br> <br>
+
+        <span><label for="telefono">Teléfono de contacto:</label> <br> </span>
+        <span> <input type="text" id="telefono" name="telefono" placeholder="+57 ... ... ..." required> <br> <br> </span>
+
+        <span> <label for="correo">Correo electrónico:</label> <br> </span>
+        <span> <input type="email" id="correo" name="correo" placeholder="Ej: pepe@gmail.com" required> <br> <br> </span>
+
+        <span> <label for="contrasena">Contraseña:</label> <br> </span>
+        <span> <input type="password" id="contrasena" name="contrasena" required> <br> <br> </span>
+
+        <span> <label for="domicilio">Domicilio:</label> <br> </span>
+        <span> <input type="text" id="domicilio" name="domicilio" placeholder="Calle XX" required> <br> <br> <br> </span>
+
+
+        <div class="boton_registrarse">
+            <button onclick="alert('Procesando datos... Registrándose en el sistema...')">
+                <input class="btn" type="submit" value="Registrarse">
+            </button>
+        </div>
+    </form>
+    </div>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/cafe" title="cafe icons (autor del ícono de la página)" target="_blank">Atribución de derechos de autor
+            icono de la página web ilustrado por Freepik - Flaticon </a>
+            <br>
+            <br>
+        <strong>Teléfono de contacto: 316 540 35 96
+            <br>
+            Correo electrónico: necoffeesas@necoffee.com.co
+        </strong>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8"> <!--esto sirve para que la pagina reconozca los caracteres de todos los idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esto sirve para optimizar los sitios para móviles, esta etiqueta ayuda a definir el ancho, alto y escala del área usada por el navegador para mostrar contenido-->
+    <title> Inciar Sesión | Necoffee</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="Logo_Cafe.png">
+</head>
+
+<body>
+    <header>
+    <div class="contenedor">
+    <img src="logo_cafeteria.png" width="200px" height="200px" title="Logo de la cafetería">
+    </div>
+    <h1> Inicia sesión para iniciar tu compra </h1>
+    <h2> "Una vez rellenes los datos que te sean solicitados, tendrás acceso a todo el catálogo de productos disponibles en la cafetería" </h2> 
+    <h3> Digita el correo electrónico y contraseña de tu cuenta para observar los productos en stock.</h3>
+    </header>
+
+    <br> 
+    <hr>
+    <br>
+
+    <div class="cafe_frio">
+    <img src="latte.jpg" alt="Café tipo latte">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="form">
+    <form action="Productos.html" target="_self" autocomplete="on">
+        <span> <label for="correo">Correo electrónico:</label> <br> </span>
+        <span> <input type="email" id="correo" name="correo" placeholder="Ej: pepe@gmail.com" required> <br> <br> </span>
+
+        <span> <label for="contrasena">Contraseña:</label> <br> </span>
+        <span> <input type="password" id="contrasena" name="contrasena" required> <br> <br> </span>
+
+        <div class="boton_registrarse">
+            <button onclick="alert('Iniciando sesión...')">
+                <b> <input class="btn" type="submit" value="Iniciar sesión"> </b>
+            </button>
+        </div>
+        
+    </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/cafe" title="cafe icons (autor del ícono de la página)" target="_blank">Atribución de derechos de autor
+            icono de la página web ilustrado por Freepik - Flaticon </a>
+            <br>
+            <br>
+        <strong>Teléfono de contacto: 316 540 35 96
+            <br>
+            Correo electrónico: necoffeesas@necoffee.com.co
+        </strong>
+    </footer>
+    
+</body>
+</html>
